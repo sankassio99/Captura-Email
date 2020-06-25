@@ -1,0 +1,38 @@
+h1, p, li {
+    margin: 0;
+    padding:0;
+    font-size:1.2em;
+    font-family: Arial ;
+}
+.register {
+    background-color: #1f1f1f ;
+}
+.header {
+    padding: 40px ;
+    text-align: center;
+    color:gray ;
+}
+
+.section {
+    padding-top: 0px ;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 500px ;
+}
+
+.form {
+    display: flex;
+    flex-direction: column ;
+    padding: 20px ;
+    background-color: #e2e2e2 ;
+    box-shadow: 1px 1px 5px gray;
+}
+.form input {
+    margin: 5px ;
+    width: 300px ;
+}
